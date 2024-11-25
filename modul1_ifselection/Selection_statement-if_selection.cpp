@@ -45,7 +45,7 @@ int main() {
     cin >>berat;
     cout << "Masukan tinggi badan : ";
     cin>>tinggi;
-
+    bmi = hitungBmi(berat,tinggi);
     cout << fixed << setprecision(2);
     cout << "\n BMI adalah :  " << hitungBmi(berat,tinggi) << endl;
     cout << "kategori      : " << kategori(bmi);
